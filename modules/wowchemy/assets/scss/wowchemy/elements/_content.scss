@@ -35,8 +35,10 @@
 
 .featured-image-wrapper {
   position: relative;
-  padding-left: 0; /* Override container padding. */
-  padding-right: 0; /* Override container padding. */
+}
+
+.featured-image-wrapper div {
+  position: relative;
 }
 
 .featured-image {
